@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1c1c1c; /* Fundo escuro */
+    color: white; /* Texto branco */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1c1c1c; /* Fundo escuro */
+    color: white;
+}
+
+header .logo {
+    max-height: 85px; /* Ajuste a altura conforme necessário */
+    width: auto;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .login-btn {
+    background-color: #ff6600; /* Cor laranja do botão */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #292929; /* Fundo um pouco mais claro que o fundo principal */
+}
+
+#hero h1 {
+    font-size: 36px;
+    color: #ff6600; /* Cor laranja do texto principal */
+}
+
+#hero p {
+    font-size: 18px;
+    color: white;
+}
+
+.cta-btn {
+    background-color: #ff6600; /* Cor laranja do botão */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#beneficios, #recursos, #depoimentos, #precos, #sobre-nos, #faq {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1c1c1c; /* Fundo escuro */
+}
+
+.beneficio, .plano {
+    margin: 20px;
+    background-color: #292929; /* Fundo um pouco mais claro que o fundo principal */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1c1c1c; /* Fundo escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
